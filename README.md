@@ -1,8 +1,8 @@
 # Databricks-Volumes-ETL-Pipeline-with-Azure-Integration
-Architecture
+## Architecture
 Bronze → Silver (Valid / Bad / Processed) → Gold
 
-Features
+# Features
 
 Incremental data ingestion using MERGE INTO
 
@@ -16,7 +16,7 @@ Aggregations: sales, margin, top customers
 
 End-to-end orchestration via Lakeflow Jobs
 
-Notebooks
+# Notebooks
 
 ingestion.py – reads & merges raw data into Bronze
 
@@ -28,7 +28,7 @@ aggregation.py – performs analytical aggregations
 
 lakeflow_job – orchestrates the pipeline
 
-Integrations
+# Integrations
 
 Azure SQL Database for lookup validation
 
